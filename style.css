@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(40, 40, 40);
+}
+.container{
+    margin-top: 5vh;
+}
+.box{
+    width: 30vh;
+    height: 30vh;
+    border: 10px solid grey;
+    margin: auto;
+    border-radius: 50%;
+    border-top: 10px solid rgb(0, 195, 255);
+    animation: rotate 3s 0s infinite ease;
+}
+
+@keyframes 
+rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
